@@ -1,0 +1,95 @@
+/* Estilos para el header */
+.header {
+    height: 100vh;
+    background-image: url('cabecera.jpg') ;
+    background-size: cover;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 3em;
+    
+}
+
+/* Estilos para el navbar */
+.navbar {
+    background-color: #444;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilos para las secciones */
+.section {
+    padding: 50px 0;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #3a3a3a;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column {
+    flex: 1;
+    padding: 50px 50px;
+    
+}
+
+
+.column img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.column .content {
+    padding: 0 20px;
+}
+
+.column h2 {
+    margin-bottom: 20px;
+    font-size: 3em;
+}
+
+.column p {
+    text-align: justify;
+    color: #ffffff;
+    border: 1 solid #fff;
+}
+.borde {
+    width: auto;
+    height: auto;
+    padding: 30px;
+    border: 1px solid #fff;
+}
+/* Media Query para hacer la página responsive */
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    .column {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
