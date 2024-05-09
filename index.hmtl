@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1>Welcome to my Website</h1>
+    </header>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#section1">Section 1</a></li>
+            <li><a href="#section2">Section 2</a></li>
+        </ul>
+    </nav>
+
+    <section id="section1" class="section" data-aos="fade-right">
+        <div class="container">
+            <div class="column">
+                <img src="proyecto1.jpg" alt="Image 1">
+            </div>
+            
+            <div class="column">
+                <h2>Section 1</h2>
+                <div class="borde">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Sed suscipit leo sit amet lorem maximus, at varius risus 
+                    tincidunt.  Sed suscipit leo sit amet lorem maximus, at varius risus 
+                    tincidunt.</p><br/>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Sed suscipit leo sit amet lorem maximus, at varius risus 
+                    tincidunt.  Sed suscipit leo sit amet lorem maximus, at varius risus 
+                    tincidunt.</p><br/>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Sed suscipit leo sit amet lorem maximus, at varius risus 
+                    tincidunt.  Sed suscipit leo sit amet lorem maximus, at varius risus 
+                    tincidunt.</p>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="section2" class="section" data-aos="fade-left">
+        <div class="container">
+            <div class="column">
+                <h2>Section 2</h2>
+                <div class="borde">
+                <p>Sed interdum malesuada dui, at consectetur tortor iaculis non. 
+                    Sed mattis, purus sed dapibus tincidunt, nunc est dapibus arcu, 
+                    vel iaculis ligula est eu magna. Lorem ipsum dolor sit amet, 
+                    consectetur adipiscing elit. </p><br/>
+                <p>Sed interdum malesuada dui, at consectetur tortor iaculis non. 
+                    Sed mattis, purus sed dapibus tincidunt, nunc est dapibus arcu, 
+                    vel iaculis ligula est eu magna. Lorem ipsum dolor sit amet, 
+                    consectetur adipiscing elit. </p><br/>
+                 <p>Sed interdum malesuada dui, at consectetur tortor iaculis non. 
+                    Sed mattis, purus sed dapibus tincidunt, nunc est dapibus arcu, 
+                    vel iaculis ligula est eu magna. Lorem ipsum dolor sit amet, 
+                    consectetur adipiscing elit. </p>
+                </div>
+            </div>
+            <div class="column">
+                <img src="proyecto2.jpg" alt="Image 2">
+            </div>
+           
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+</html>
